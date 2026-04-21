@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+	font-family: "Prompt", sans-serif;
+}
+.blog {
+	text-align: center;
+	color: #333;
+	margin: 50px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.card-col {
+	text-decoration: none;
+	color: black;
+}
+.card-col a {
+    text-decoration: none; /* This removes the underline from links */
+}
+
+.card-group{
+	text-decoration: none;
+	color: black;
+}
+
+.card-col a:hover {
+	text-decoration: underline;
+}
+
+.card {
+	margin-bottom: 20px;
+	width: 330px;
+	height: 400px;
+	transition: transform 0.3s;
+	border: 1px solid #ccc;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+/**/
+.card-group {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-left: 60px;
+	
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+p>.read {
+	margin-left: 210px;
+	margin-top: -60px;
+}
+
+.Like {
+	float: left;
+}
+
+.Bookmark {
+	float: right;
+	color: orange;
+}
+
+
+
+
+

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+#carouselExampleDark {
+    margin-top: -3px;
+}
+
+.divnamecategories {
+    margin-left: 60px;
+    margin-top: 30px
+}
+
+.namecategories {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.categories {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.categories>div {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+}
+
+.categories>div a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.categories>div a:hover {
+    background-color: #f0f0f0;
+}
+
+.travelclass {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black; 
+    
+}
+.popular{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-left: 70px;
+}
+
+.card-col a {
+    text-decoration: none; /* This removes the underline from links */
+}
+
+/* Optional: Add this to change the appearance of the link on hover */
+.card-col a:hover {
+    text-decoration: underline; /* This adds an underline to the link on hover, optional */
+}
+
+
+.card {
+    margin-bottom: 20px;
+    width: 338px;
+    height: 450px;
+    margin-left: -10px;
+    transition: transform 0.3s;
+    border: 1px solid #ccc;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.button-love{
+	text-decoration: none;
+	color: black;
+}
+.Like {
+	float: left;
+}
+
+.Bookmark {
+	float: right;
+	color: orange;
+}
+
+
+
+
+
+
+

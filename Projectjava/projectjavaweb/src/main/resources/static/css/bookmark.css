@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+.Bookmark {
+	text-align: center;
+	color: #333;
+	margin: 50px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.card-col {
+	text-decoration: none;
+	color: black;
+}
+
+.card-col a:hover {
+	text-decoration: underline;
+}
+
+.card {
+	margin-bottom: 20px;
+	width: 330px;
+	height: 400px;
+	transition: transform 0.3s;
+	border: 1px solid #ccc;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+/**/
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-left: 70px;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.delete {
+	color: #FF0000; /* สีของลิงก์ */
+	font-weight: bold; /* ทำให้ลิงก์มีน้ำหนักตัวหนา */
+	text-decoration: none; /* ไม่มีขีดเส้นใต้ลิงก์ */
+	margin-left: 10px; /* ระยะห่างด้านซ้ายของลิงก์ */
+	transition: color 0.3s; /* เพิ่มเอฟเฟกต์เมื่อเมาส์ผ่านลิงก์ */
+	float: right;
+}
+
+.delete:hover {
+	color: #FF3333; /* เปลี่ยนสีของลิงก์เมื่อโฮเวอร์ */
+}

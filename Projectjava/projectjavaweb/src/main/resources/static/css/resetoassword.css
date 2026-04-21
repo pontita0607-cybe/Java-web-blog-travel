@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: inline-flex;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.background-image-container {
+    height: 730px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-left: 0px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+    margin-top:55px;
+}
+
+.logoLogin {
+    text-align: center;
+    width: 150px;
+    height: auto;
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+
+.ChangeTitle {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 2px; /* Add margin for spacing */
+}
+
+h1 {
+    color: #333;
+}
+
+.newPassword {
+    text-align: left;
+    color: #333;
+    margin-top: -65px;
+}
+.confirmNewPassword {
+	 text-align: left;
+     color: #333;
+     margin-top: -65px;
+	
+}
+
+input {
+    width: 400px; /* Make input fields take full width */
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: -50px;
+}
+
+button {
+    width: 400px;
+    padding: 15px;
+    margin-top:-45px;
+    background-color: #0783FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0a9dff;
+}
+
+
+.Signup{
+	margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #e74c3c;
+}

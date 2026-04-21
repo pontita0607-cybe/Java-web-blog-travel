@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+	font-family: "Prompt", sans-serif;
+	overflow-x: hidden;
+}
+
+/* Toggle Styles */
+#viewport {
+	padding-left: 250px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	margin-right: 0;
+}
+
+/* Sidebar Styles */
+#sidebar {
+	z-index: 1000;
+	position: fixed;
+	left: 250px;
+	width: 250px;
+	height: 100%;
+	margin-left: -250px;
+	overflow-y: auto;
+	background: white;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#sidebar header {
+	background-color: #263238;
+	font-size: 20px;
+	line-height: 52px;
+	text-align: center;
+}
+
+#sidebar header a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+#sidebar header a:hover {
+	color: #fff;
+}
+
+#sidebar .nav {
+	
+}
+
+#sidebar .nav a {
+	background: none;
+	border-bottom: 1px solid #455A64;
+	color: #CFD8DC;
+	font-size: 14px;
+	padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+	background: none;
+	color: #ECEFF1;
+}
+
+#sidebar .nav a i {
+	margin-right: 16px;
+}
+
+/* div navAdmin a /homeAdmin */
+.d-flex1 {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+
+
+
+
+.news {
+	text-align: center;
+	color: #333;
+	margin-left: -15%;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.edit {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+}
+
+.edit:hover {
+	background-color: darkorange;
+}
+/* ลิงก์ "ลบ" */
+.delete {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+}
+
+.delete:hover {
+	background-color: darkred;
+}
+
+.add button {
+	padding: 10px 20px;
+	background-color: #4CAF50; /* สีเขียว */
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	text-decoration: none; /* เอาไว้เอาเส้นข้างล่างของปุ่ม */
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+/* เมื่อโฮเวอร์ที่ปุ่ม */
+.add button:hover {
+	background-color: #45a049; /* เปลี่ยนสีเขียวเข้าไปเล็กน้อย */
+}

@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: inline-flex;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.background-image-container {
+    height: 730px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-left: -326px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form {
+    width: 450px;
+    height: 595px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 290px;
+    margin-top: 50px;
+}
+
+.logoLogin {
+    text-align: center;
+    width: 130px;
+    height: auto;
+    margin-top: -5px;
+    margin: 0 auto; /* Center the logo horizontally */
+    display: block; /* Ensure it's a block-level element */
+}
+
+
+.registerTitle {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 450px; /* Make input fields take full width */
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+button {
+
+    width: 450px;
+    padding: 15px;
+    background-color: #0783FF;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0a9dff;
+}
+
+
+.password-container {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+p {
+    color: #777;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #0783FF;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.accountSingin{
+    margin-top: 12px;
+}
+
+/* เพิ่มฟิลด์สำหรับประเภทผู้ใช้ */
+label[for="type"] {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 10px
+}
+
+select#type {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* เลือก style สำหรับ option ใน select */
+select#type option {
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+/* เลือก style สำหรับ option เมื่อ hover ใน select */
+select#type option:hover {
+    background-color: #e0e0e0;
+}
+
+.message{
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+
